@@ -1,19 +1,25 @@
+/* -- PAGE 1 -- */
 /* -- MOBILE FIRST -- */
 /* -- Mobile 320px X 480px-- */
 /* -- GERAL -- */
+
 * {
   list-style: none;
   box-sizing: border-box;
   color: #ffff;
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
+
 body {
   margin: 0; 
 }
+
 a {
   text-decoration: none;
 }
+
 /* -- NAV - NAVIGATION -- */
+
 nav {
   background-color: #674582;
   min-height: 9vh;
@@ -29,30 +35,25 @@ nav {
   align-items: center;
   justify-content: space-around;
 }
+
 .logo-nav img {
   width: 45%;
 }
+
 .nav-list {
   display: none;
 }
+
 .nav-sandwich {
   display: flex;
 }
+
 .nav-sandwich img {
   background-color: #C083B9;
   border-radius: 5px;
 }
+
 /* --HEADER-- */
-
-/* .banner {
-  background-image: url(../img/bg-banner-claro.png);
-  background-size: cover;
-  width:100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 270px;
-
-} */
 
 .header {
  background-image: url(../img/bg-banner-claro.png);
@@ -62,21 +63,17 @@ nav {
  display: flex;
  background-repeat: no-repeat;
  height: 60%;
-
 } 
+
 header div {
   width: 80%;
 } 
 
 header h1 {
   text-transform: uppercase;
-   /* margin: 0; 
-  font-size: 250%;  */
   font-weight: 900;
-  /* margin-top: -260px; */
   font-size: 135%;
   margin-left: 5%;
-
 }
 
 header h2 {
@@ -85,6 +82,7 @@ header h2 {
   font-size: 95%;
   margin-left: 5%;
 }
+
 /* --SECTION YOU KNOW-- */
 
 section {
@@ -94,13 +92,8 @@ section {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: space-around; */
-  /* align-items: center; */
-  /* text-align: center; */
-  /* padding: 5% 0; */
 }
+
 .all-woman {
   display: flex;
   flex-wrap: wrap;
@@ -122,7 +115,6 @@ h3 {
   color: #63458a;
   margin: 1%;
   text-align: center;
-  /* padding-top: 20px; */
 }
 
 .you-know {
@@ -159,6 +151,7 @@ h3 {
 }
 
 /* ---------- FOOTER ---------- */
+
 footer {
   background-color: #323534;
   font-size: 80%;
@@ -178,16 +171,21 @@ footer > div {
   margin: 0;
 }
 /*  FOOTER--LINKS */
+
 .footer-links li {
   font-size: 120%;
   margin: 10% 0;
   width: 100%;
 }
+
 /* FOOTER--M DE MARAVILHOSA */
+
 img.footer-img {
   width: 100%;
 }
+
 /* FOOTER--FACEBOOK  */
+
 div.footer-facebook a {
   display: flex;
   align-items: center;
@@ -203,7 +201,7 @@ img.fb {
   display: flex;
   font-size: 120%;
 }
-
+/* ----------@MEDIA----------- */
 
 /* ----TABLET---- */
 /* 768px */

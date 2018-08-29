@@ -1,0 +1,271 @@
+/* -- PAGE 2 -- */
+/* -- MOBILE FIRST -- */
+/* -- Mobile 320px X 480px-- */
+/* ------- GERAL ------- */
+
+* {
+  list-style: none;
+  box-sizing: border-box;
+  color: #63458A;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0; 
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ------ NAV - NAVIGATION ------ */
+
+nav {
+  background-color: #674582;
+  min-height: 9vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  text-transform: uppercase;
+}
+.nav-img-woman {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo-nav img {
+  width: 45%;
+}
+
+.nav-list {
+  display: none;
+}
+
+.nav-sandwich {
+  display: flex;
+}
+
+.nav-sandwich img {
+  background-color: #C083B9;
+  border-radius: 5px;
+}
+
+/* ------HEADER------ */
+
+.header {
+  background-image: url(../img/banner-lamarr.jpg);
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  display: flex;
+  background-repeat: no-repeat;
+  height: 60%;
+} 
+ 
+header div {
+  width: 80%;
+} 
+ 
+header h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 140%;
+  margin-left: 25%;
+  text-align:center;
+  margin-top: 50vh;
+  color: #ffff;
+}
+ 
+/* --SECTION ABOUT-WOMAN-- */
+
+/* .about-woman {
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.about-img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.about-img img {
+  width: 150px;
+  
+}
+.about-introduction {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.about-introduction h3 {
+  font-size: 120%;
+  text-align: center;
+}
+
+.about-introduction p {
+  text-align: justify;
+  font-size: 90%;
+}
+
+/* --SECTION BOX-WOMAN-- */
+
+.box-woman div {
+  border-width: 3px;
+  border-style: solid;
+  font-size: 75%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.box-woman h3 {
+  margin-left: 1%;
+  margin-right: 1%;
+  text-align: justify;
+}
+
+/* --SECTION HISTORY-- */
+
+.history-woman {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.history h3 {
+  font-size: 120%;
+  text-align: center;
+}
+
+.history p {
+  text-align: justify;
+  font-size: 90%;
+}
+
+.history-img img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  height: 140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.history-continuation p {
+  text-align: justify;
+  font-size: 90%;
+}
+
+/* --SECTION ABOUT-ME--*/
+
+.about-me {
+  background-color: #E4B7E5;
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.about-me-img {
+  margin: 2%
+
+}
+.about-me-img img {
+  width:100px; 
+  height: 100px;
+  border-radius: 50%;
+}
+.about-me-text {
+  text-align: left;
+  font-size: 90%;
+  font-weight: bold;
+}
+
+/* --BUTTON-- */
+
+.button {
+  background-color: #C083B9;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 3% 5%;
+  border-radius: 5px;
+  /* margin-left: 25%; */
+  color: #ffff;
+}
+
+.button-div{
+  display: flex;
+  justify-content: center;
+}
+/* ---------- FOOTER ---------- */
+
+footer {
+  background-color: #323534;
+  font-size: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2%;
+  margin-top: 5%;
+}
+
+footer > div {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  
+}
+footer a {
+  color: #ffff;
+}
+
+/*  FOOTER--LINKS */
+
+.footer-links li {
+  font-size: 120%;
+  margin: 10% 0;
+  width: 100%;
+}
+
+/* FOOTER--M DE MARAVILHOSA */
+
+img.footer-img {
+  width: 100%;
+}
+
+/* FOOTER--FACEBOOK  */
+
+div.footer-facebook a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img.fb {
+  width: 10%;
+  display: flex
+}
+
+.footer-facebook p {
+  display: flex;
+  font-size: 120%;
+  color: #ffff;
+}
+
+/* ------------@MEDIA----------- */
+/* ----TABLET---- */
+/* 768px */
+
+
+
+
+/* ----DESKTOP---- */
+/* --1024px */
