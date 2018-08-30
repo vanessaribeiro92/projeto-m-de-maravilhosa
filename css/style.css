@@ -44,6 +44,10 @@ nav {
   display: none;
 }
 
+.nav__icones {
+  display: none;
+}
+
 .nav-sandwich {
   display: flex;
 }
@@ -206,8 +210,89 @@ img.fb {
 /* ----TABLET---- */
 /* 768px */
 
+@media (min-width: 768px) {
+  .nav-list {
+    display: none;
+  }
 
+  .nav-sandwich {
+    display: block;
+  }
 
+  .nav__icones {
+    display: none;
+  }
+
+}
 
 /* ----DESKTOP---- */
 /* --1024px */
+
+@media (min-width: 1024px) {
+
+  .nav-list {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+  }
+
+  .nav-sandwich {
+    display: none;
+  }
+  
+  .nav__icones {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nav__icones-img {
+    margin-right: 10px;
+  }
+
+  .nav-img-woman {
+    display: flex;
+    width: 35%;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .nav-list-item {
+    margin-right: 30px;
+  }
+
+  .nav-list a {
+    color: #ffff;
+  }
+
+  .header h2 {
+    margin-top: 3%;
+  }
+
+ .button {
+   margin-left: 47%;
+  }
+
+ .header h1 {
+   margin-top: 13%;
+  }
+
+  .you-know .woman {
+    width: 14%;
+  }
+
+  .you-know > div {
+    width: 90%;
+  }
+
+  img.footer-img {
+   width: 40%;
+  }
+  
+  .footer-links li {
+    margin: 20px;
+  }
+
+}
+
+
+
+
